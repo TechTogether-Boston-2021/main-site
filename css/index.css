@@ -314,3 +314,81 @@ ul {
 
 
 /* Footer */
+
+footer {
+    background-color: #1E2833;
+    width: 100%;
+    font-family: 'Raleway';
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-family: 'Raleway';
+    font-size: .8em;
+}
+
+#footer-box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8vh;
+}
+
+#safeplace-icon-container {
+    display: flex;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2em;
+    margin-left: 10vw;
+    margin-right: .3em;
+    align-items: flex-start;
+    /* margin-top: 8vh; */
+}
+
+#footer-icon {
+    width: 40px;
+    padding-right: .4em;
+}
+
+#footer-safeplace-text {
+    margin: 0;
+}
+
+#footer-table td{
+    padding: .6em 4vw;
+}
+
+#footer-table {
+    margin-right: 10vw;
+
+}
+
+#footer-table th {
+    font-weight: normal;
+    color: #FFDD99;
+    text-align: left;
+    padding: .6em 4vw;
+}
+
+#bottom-row-footer {
+    margin-left: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-box-1 {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#socials-box {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4vw;
+}
