@@ -3,51 +3,136 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <title>SafeSpace</title>
-
         <link href="css/index.css" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <div style="width: 1440px; height: 1024px; padding-top: 47px; padding-bottom: 630px; padding-left: 62px; padding-right: 78px; background-color: white; display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-        <div style="width: 1258px; height: 56px; display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-end;">
-            <div style="width: 135.40px; height: 56px;">
-                <div style="width: 135.40px; height: 56px; padding-top: 9px; padding-bottom: 17px; padding-right: 22px; background-color: rgba(127.50, 58.65, 68.85, 0.50); border-radius: 8px; display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start;">
-                    <p style="width: 113.50px; height: 29.82px; font-size: 24px; line-height: 150%; color: black;">Safeplace</p>
+
+    <body>
+    <!-- <div id="one-big-div"> -->
+        <div id="navbar">
+
+            <!-- Should this link anywhere or is it decorative? -->
+            <!-- <div id="div-3"> -->
+                <div id="safeplace-little-div">
+                    <img id="navbar-icon" src="/css/safeplace.svg">
+                    <p>Safeplace</p>
                 </div>
-            </div>
-            <div style="width: 104.87px;"></div> 
+            <!-- </div> -->
+
+            <!-- this looks like a spacer div, so I'm going to remove it to make the design responisve-->
+            <!-- <div style="width: 104.87px; background-color:red"></div>  -->
         
-            <div style="width: 608px; height: 24px; display: flex; flex-direction: row; align-items: center; justify-content: flex-end;">
-                <p style="font-size: 16px; font-weight: 700; line-height: 150%; color: rgba(33, 104, 105, 1);">Home</p>
-                <div style="width: 38px;"/>
-                <p style="font-size: 16px; line-height: 150%; color: rgba(51, 51, 51, 1);">About Us</p>
-                <div style="width: 38px;"/>
-                <p style="font-size: 16px; line-height: 150%; color: rgba(51, 51, 51, 1);">Learn More</p>
-                <div style="width: 38px;"/>
-                <p style="font-size: 16px; line-height: 150%; color: rgba(51, 51, 51, 1);">Get Help</p>
-                <div style="width: 38px;"/>
-                <p style="font-size: 16px; line-height: 150%; color: rgba(51, 51, 51, 1);">Take Action</p>
-                <div style="width: 38px;"/>
-                <p style="font-size: 16px; line-height: 150%; color: rgba(51, 51, 51, 1);">Community</p>
+
+            <!-- for the navbar, I removed the spacer divs in order to make the site responsive utiizing flex:space-between. I also changed the p tags to a tags so that we can link to different pages in the site, but kept all of the styling -->
+            <div id="site-navigation">
+                <a href="">Home</a>
+                
+                <a href="">About Us</a>
+                
+                <a href="">Learn More</a>
+                
+                <a href="resources.html">Get Help</a>
+                
+                <a href="">Take Action</a>
+                
+                <a href="">Community</a>
             </div>
-            <div style="width: 104.87px;"/>
-            <div style="width: 125px; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; background-color: rgba(33, 104, 105, 1); border-radius: 8px; display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-                <p style="font-size: 14px; font-weight: 700; line-height: 150%; color: white;">SAFETY EXIT</p>
-            </div>
-            <div style="width: 104.87px;"/>
-            <div style="padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; background-color: rgba(51, 113, 242, 0); border-radius: 8px; border-style: solid; border-width: 1px; border-style: solid; border-color: black; display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-                <p style="font-size: 14px; font-weight: 500; line-height: 150%; color: black;">Sign in</p>
-            </div>
+
+            <!-- <div style="width: 104.87px;"></div> -->
+
+            <!-- added a tag here -->
+            <a href="">
+                <div id="safety-exit-div">
+                    <p>SAFETY EXIT</p>
+                </div>
+            </a>
+
+
+            <a href="">
+                <div id="sign-in-div">
+                    <p>Sign in</p>
+                </div>
+            </a>
+
+
         </div>
-        <div style="height: 42.86px;"/>
+
+
+        <div style="height: 42.86px;"></div>
+
         <div style="width: 33px; height: 34px; padding-top: 1px; padding-bottom: 1px; display: inline-flex; flex-direction: row; align-items: center; justify-content: center;">
-            <div style="width: 33px; height: 31.88px; position: relative;">
-                <img style="width: 31.71px; height: 30.55px; left: 0.64px; top: 0.66px; position: absolute; border-radius: 8px;" src="https://via.placeholder.com/31.7109375x30.546875"/>
-                <img style="width: 33px; height: 31.88px; left: 0px; top: 0px; position: absolute; border-radius: 8px;" src="https://via.placeholder.com/33x31.875"/>
-            </div>
+          
         </div>
-        <div style="height: 42.86px;"/>
-        <p style="width: 644.73px; height: 64.19px; font-size: 64px; font-weight: 500; line-height: 100%; color: black;">You are in a Safeplace</p>
-        <div style="height: 42.86px;"/>
-        <p style="width: 909.34px; font-size: 18px; font-weight: 700; line-height: 63.98px; text-align: center; color: rgba(51, 51, 51, 1); text-transform: capitalize;">A RESOURCE FOR DOMESTIC VIOLENCE, INTIMATE PARTNER VIOLENCE, AND SEXUAL ABUSE SURVIVORS</p>
-    </div>
+
+
+        <!-- changed p to h1 and h2 - better for SEO. Added a div to center. -->
+
+
+        <div id="index-heading">
+            <h1>Welcome to Safeplace</h1>
+
+            <h2>A RESOURCE FOR DOMESTIC VIOLENCE, INTIMATE PARTNER VIOLENCE, AND SEXUAL ABUSE SURVIVORS</h2>  
+        </div>
+
+        <div id="what-to-do-index">
+
+            <div class="what-do-box">
+
+                <img class="what-do-img" src="/css/book-grab.jpg">
+                <div class="what-do" id="articles-div">
+                    <h3>Articles</h3>
+                    <p>Some articles that may help you navigate your situation</p>
+                    <a href="articles.html">
+                        <button class="what-do-button">
+                            View Articles
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="what-do-box">
+
+                <img class="what-do-img" src="/css/resources1.jpg">
+                <div class="what-do" id="resources-div">
+                    <h3>Resources</h3>
+                    <p>A comprehensive List of Resources</p>
+                    <a href="resources.html">
+                        <button class="what-do-button">
+                            View Resources
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="what-do-box">
+
+                <img class="what-do-img" src="/css/pro-support.jpg">
+                <div class="what-do" id="pro-support-div">
+                    <h3>Professional Support</h3>
+                    <p>Copy copy copy copy copy copy</p>
+                    <a href="support.html">
+                        <button class="what-do-button">
+                            Find Help
+                        </button>
+                    </a>
+                </div>
+    
+            </div>
+
+
+        </div>
+
+    <div class="horizontal-spacer"></div>
+
+    
+
+</body>
+</html>
